@@ -1,4 +1,3 @@
-// index.js
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -13,5 +12,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = app; // Export for testing
-
+module.exports = app;
